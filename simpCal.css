@@ -1,0 +1,42 @@
+body{
+    background-image: url("sharon-mccutcheon-unsplash.jpg");
+    background-size: cover;
+}
+h1{
+text-align: center;
+}
+.display {
+    background-color: #c1c0c5;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 92%;
+    height: 65%;
+}
+.container{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ac8507;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 30px;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+}
+#btn {
+    background-color: #f01e1e;
+}
+input[type=button] {
+    background-color: #098177;
+    color: white;
+    border: solid black 0.5px;
+    width: 80%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+input:active[type=button] {
+    background: #e5e5e5;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+}
